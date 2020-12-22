@@ -1,6 +1,6 @@
 # Site settings
 client:
-title: Ocupop Project Template
+title: Damn Good Games - Animation Examples
 email: dev@ocupop.com
 url: "http://client_url.com"
 permalink: pretty
@@ -37,15 +37,6 @@ safe: false
 sass:
   # style: compressed
   sass_dir: _scss
-plugins:
-  - jekyll-sitemap
+# plugins:
 
 placeholder_image: https://via.placeholder.com/1000x1000/333333/000000?text=Placeholder
-
-_array_structures:
-  object:
-    label: Object
-    icon: link
-    value:
-      title:
-      url:

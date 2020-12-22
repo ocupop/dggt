@@ -1,7 +1,7 @@
 {
-  "name": "jekyll-cloudcannon-template",
+  "name": "damn-good-games-animations",
   "version": "1.0.0",
-  "description": "Cloudcannon Suite Template is a starting point for sites hosted on Cloudcannon and built using Jekyll.",
+  "description": "These are animation examples to share with client as part of the design hand-off.",
   "private": true,
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "author": "Ocupop",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.5.3",
+    "bootstrap": "^5.0.0-beta1",
     "concurrently": "^5.3.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

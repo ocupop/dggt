@@ -1,8 +1,8 @@
 ---
 ---
-// Fonts
-// @import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,Spectral:400,400i,500i,600,600i&display=swap");
 
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@100;400&display=swap");
 
 @import "settings";
 @import "vendor/bootstrap/scss/bootstrap"; // Copied from node_modules and committed to source to allow Bootstrap to compile during build
@@ -11,12 +11,12 @@
 @import "global/mixins";
 @import "global/utilities";
 @import "global/base";
+@import "global/nav";
 @import "global/layout";
 @import "global/typography";
 @import "global/animations";
 
+@import "pages/homepage";
+
 // Vendor Specific
 @import "vendor/bootstrap";
-@import "vendor/cognito";
-
-

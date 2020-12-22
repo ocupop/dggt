@@ -1,0 +1,173 @@
+<html>
+  <head>
+    <!-- Material Design Lite -->
+    <script src="./mdl/material.min.js"></script>
+
+    <link rel="stylesheet" href="./mdl/material.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+
+<style>
+
+.dggt-color--red{color:#F44825;}
+.dggt-color--blue{color:#0096EA;}
+.dggt-color--yellow{color:#FFC31A;}
+.dggt-color--green{color:#00A552;}
+.dggt-color--pink{color:#F15E67;}
+.dggt-color--orange{color:#FF8617;}
+.dggt-color--purple{color:#C911AF;}
+.dggt-color--teal{color:#106B77;}
+.dggt-color--darkgray-300{color:#0F2026;}
+.dggt-color--darkgray-200{color:#1D3135;}
+.dggt-color--darkgray-100{color:#334747;}
+.dggt-color--litegray-200{color:#E5E5E5;}
+.dggt-color--litegray-100{color:#EfEfEf;}
+
+.section_copy{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+}
+/*
+html * {
+  background: rgba(255, 0, 0, .1);
+  box-shadow: 0 0 0 1px red;
+}*/
+</style>
+  </head>
+  <body>
+
+  <!-- Main Material Design Div-->
+  <div class="mdl-layout mdl-js-layout  mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600" style="box-shadow:none">
+        <div class="mdl-layout__header-row">
+          <img src="logo-dggt.svg" style="width:608px;height:32px">
+          
+          <div class="mdl-layout-spacer"></div>
+          <div id="nav-buttons">
+            <button class="mdl-button mdl-js-button">Features</button>
+            <button class="mdl-button mdl-js-button">Tools</button>
+            <button class="mdl-button mdl-js-button">Learn</button>
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" style="background-color: #F16B25;">Login</button>
+          </div>
+          
+      </header>
+
+      
+      <main class="mdl-layout__content mdl-color--grey-100">
+
+        <div id='section-1' class="mdl-grid" style="background-color:#071A23; max-height: 1000px;border: 0px;margin: 0px;padding: 0px;">
+
+          <div class="mdl-cell mdl-cell--10-col mdl-cell--1-offset" style="max-height: 500px" >
+            <img src="./s1-banner.svg" style="width:612px;height:480px;top: -60px;position: relative;">
+            <img src="./s1-hero.svg" style="position: absolute;display: inline-block;width: 943px;">
+            <div style="position: relative;top: -140px;left: 8px;">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" style="background-color: #F16B25;width:290;height: 75px;font-size:30px">Get started!</button>
+              </div>
+          </div>
+          
+
+          <div class="mdl-grid" style="width:100%;height:303px;background-color: #ffffff;margin:0px">
+            <div class="mdl-cell mdl-cell--5-col mdl-cell--1-offset">
+              <img src="./s1-cards.svg" style="width:560px;height:353px;margin-top:-60px">
+            </div>
+
+            <div  class="mdl-cell mdl-cell--5-col">
+              <div class="section_copy" style="font-size:30px;line-height: 1.2;margin-top: 32px;max-width:600px">Our suite of online tools are built to make it easy to brainstorm, prototype, and playtest   your boardgame ideas as fast as possible.
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div id='section-2' class="mdl-grid" style="background:url('./s2-bg.svg')center top no-repeat;background-size: cover;border: 0px;margin: 0px;padding: 0px;">
+            <div class="mdl-cell mdl-cell--10-col  mdl-cell--1-offset" style="margin-bottom: 64px">
+              <img src="./s2-hero.svg" style="width:100%; max-height: 1000px">
+              <div style="background-color: #E9E6DF; width: 50%;max-width: 660px;text-align: center;margin-left: 25%;margin-top: -50px;">
+                <div class="section_copy" style="padding-top:32px;padding-bottom: 32px;padding-left: 16px;padding-right: 16px">
+                  We’ve obsessed over making it easier to prototype your tabletop ideas. Our tools trim the fat, streamline the work, and automate the hard stuff.
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        <div id='section-3' class="mdl-grid" style="background-color:#071A23; width:100%; max-height: 1000px;border: 0px;margin: 0px;padding: 0px;padding-top: 100px">
+            <div class="mdl-cell mdl-cell--10-col mdl-cell--1-offset">
+              <img src="./s3-hero.svg" style="width:100%; max-height: 705px">
+              <div style="color:#FFFFFF; width: 50%;max-width: 660px;text-align: center;margin-left: 25%;">
+                <div class="section_copy" style="padding-top:32px;padding-bottom: 32px;padding-left: 16px;padding-right: 16px">No Download. 
+                No Install. Just the Web. <br>Tools on the web means you can
+take your ideas with you and store your precious designs in the cloud. </div>
+              </div>
+            </div>
+        </div>
+
+        <div id='section-4' class="mdl-grid" style="background:url('./s4-bg.svg')center top no-repeat;background-size: cover;border: 0px;margin: 0px;padding: 0px;">
+            <div class="mdl-cell mdl-cell--10-col  mdl-cell--1-offset">
+              <img src="./s4-hero.svg" style="width:100%; max-height: 1000px">
+              <div class="section_copy" style=" background:#F16B25; width: 50%;max-width: 660px;text-align: center;margin-left: 25%;margin-top: -50px;">
+                <div class="section_copy" style="padding-top:32px;padding-bottom: 32px;padding-left: 16px;padding-right: 16px">
+                Get to play testing faster by generating PnP files on demand or fire up our online play space and get your friends involved!
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div id='section-5' class="mdl-grid" style="background-color:#FFFFFF; width:100%; max-height: 1000px;border: 0px;margin: 0px;padding: 0px;">
+          
+            <div class="mdl-cell mdl-cell--10-col  mdl-cell--1-offset" style="text-align: center;">
+              <img src="./s5-banner.svg" style="width:781px;height:74px;padding-top:130px;padding-bottom: 74px">
+            </div>
+            <div class="mdl-cell mdl-cell--3-col  mdl-cell--1-offset" style="text-align: center;margin-right: 64px">
+              <img src="./logo-forge.svg" style="width:256px;height:256px"><br>
+              <img src="./logotitle-forge.svg" style="height:142px"><br>
+              <div class="section_copy" style="margin-top:64px">Our premier tool for building printable components for playtesting. Quickly design card decks, drawings, boards, and immediately make print-and-play versions. If you need to prototype quickly and get the ideas out of your mind, this is the place to start! </div><br>
+              <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" style="background-color: #F16B25;">Learn More</button>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col" style="text-align: center;margin-right: 64px">
+              <img src="./logo-dojo.svg" style="width:256px;height:256px"><br>
+              <img src="./logotitle-dojo.svg"  style="height:142px"><br>
+              <div class="section_copy" style="margin-top:64px">Get feedback on your game in a flash! Run your components and designs through a low-rules tabletop simulator. Simply start a game and send your friends a link. Getting quick playlists has never been easier.</div><br>
+              <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" style="background-color: #F16B25;">Learn More</button>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col" style="text-align: center;">
+              <img src="./logo-windmill.svg" style="width:256px;height:256px"><br>
+              <img src="./logotitle-windmill.svg"  style="height:142px"><br>
+              <div class="section_copy" style="margin-top:64px">Looking to fine-tune the game of your dreams in less time? Windmill deploys our custom Damn Good Game Language allowing you to simulate your game, tweak variables, and fine-tune your play testing without any humans involved.</div><br>
+              <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" style="background-color: #F16B25;">IN DEVELOPMENT</button>
+            </div>
+            
+        </div>
+        <div id='section-6' class="mdl-grid" style="background:url('./s6-bg.svg')center top no-repeat;background-size: cover;border: 0px;margin: 0px;padding: 0px;">
+            <div class="mdl-cell mdl-cell--10-col  mdl-cell--1-offset" style="margin-top:90px;">
+              <img src="./s6-hero.svg" style="width:100%; max-height: 1000px">
+              
+              <div class="section_copy" style="position: relative;top: -580px;width: 40%;text-align: center;left: 50%;transform: translateX(-50%);">
+                Whether you’re looking to try an idea. Or just want a tool to help you create some fast card layouts. Damn Good Game Tools is there to make you awesome. Let’s get to work.
+              </div>
+
+              <div style="position: relative;top: -420px;text-align: center;left: 50%;transform: translateX(-50%);">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" style="background-color: #071A23;width:360px;height: 90px;font-size:30px">Get started now!</button>
+              </div>
+            </div>
+        </div>
+        <div id='section-8' class="mdl-grid" style="background-color:#F16B25; width:100%; height:64px;text-align: center;">
+            <div class="mdl-cell mdl-cell--10-col mdl-cell--1-offset">
+              <span  class="section_copy"  style="color:white;">Copyright 2020 Mad Cactus Labs | Privacy | Legal</span>
+            </div>
+        </div>
+
+        
+
+      </main>
+
+      
+    </div>
+  
+  </body>
+
+</html>

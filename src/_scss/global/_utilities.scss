@@ -1,23 +1,8 @@
-// Responsive containers
-.container-4x3 {
-  height: 0;
-  padding-top: 60%;
-  width: 100%;
-  position: relative;
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-}
-
 // Background utlities
 .bg-image,
 .bg-video,
 .bg-iframe,
-.hero,
+.bg-hero,
 .responsive-iframe {
   position: relative;
   display: block;
@@ -115,40 +100,26 @@
   }
 }
 
-// Text utilities
-.text-overlay {
+// Background Utilities
+.bg-sunburst {
+  background-image: repeating-conic-gradient(hsla(0, 0%, 100%, 0.05) 0 18deg, hsla(0, 0%, 100%, 0) 0 40deg);
+  background-size: 100%;
+}
+.bg-grid {
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 500;
-  &.overlay-bottom {
-    top: auto;
-    bottom: 80px;
-    height: auto;
-    display: block;
+  height: 100%;
+  background-size: 77px 77px;
+  background-image: linear-gradient(to right, rgba($light, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba($light, 0.1) 1px, transparent 1px);
+  &.dots {
+    background-image: radial-gradient(circle, rgba($light, 0.7) 1px, rgba($light, 0) 1px);
   }
 }
 
-.text-underline {
-  text-transform: underline !important;
-}
-
-.text-mega {
-  font-size: 2.5rem;
-  font-weight: 600;
-  line-height: 1.25;
-  @include media-breakpoint-down(md) {
-    font-size: 1.75rem;
-  }
-}
-
-// Layout Utilities
-.overflow-hidden {
-  overflow: hidden !important;
-}
-
-// Background Utilities
 .bg-fill {
   height: 100%;
   display: flex;
@@ -177,15 +148,46 @@
   justify-content: center;
 }
 
-// Responsive Cards
-.responsive-card-deck {
-  @include make-responsive-cards();
-}
-
 //can use a utitlity like this to animate when lazyloading
 [data-lazy-type] {
   opacity: 0.1;
   &.active {
     @include animation(fadeIn, 1.3s);
   }
+}
+
+// Typeography Utilities
+// Text utilities
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 500;
+  &.overlay-bottom {
+    top: auto;
+    bottom: 80px;
+    height: auto;
+    display: block;
+  }
+}
+
+.text-underline {
+  text-transform: underline !important;
+}
+
+.text-mega {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.25;
+  @include media-breakpoint-down(md) {
+    font-size: 1.75rem;
+  }
+}
+.text-chunk {
+  // TODO: Add text replacement utility
+}
+// Color Palette Utilities
+.bg-dark {
+  color: $light;
 }
