@@ -6,6 +6,18 @@
 }
 
 #damn-good {
+  min-height: 0.25vw;
+  .bg-stack {
+    display: inline-block;
+    padding: 3rem 8rem 8rem 4rem;
+    margin-top: -8rem;
+    background-image: url("/img/header_panel_assets_cards.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    h2 {
+      margin: 0;
+    }
+  }
 }
 
 #speed {
@@ -21,6 +33,16 @@
 }
 
 #toolbox {
+  .card {
+    padding: 0 1rem;
+    text-align: center;
+  }
+  .card-img-top {
+    height: 150px;
+  }
+  .card-footer {
+    margin-top: 2rem;
+  }
 }
 
 #get-started {
