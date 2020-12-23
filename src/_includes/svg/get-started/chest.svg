@@ -3,24 +3,17 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1920 850" style="enable-background:new 0 0 1920 850;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#F3F2F1;}
-	.st1{fill:#C83131;}
-	.st2{fill:#F23C3C;}
-	.st3{fill:#F4C32D;}
-	.st4{fill:#F16B25;}
-	.st5{fill:#DDA814;}
-	.st6{fill:#081F2F;}
-	.st7{font-family:'ArialMT';}
-	.st8{font-size:100px;}
-	.st9{letter-spacing:-1;}
-	.st10{letter-spacing:-2;}
-	.st11{font-family:'WorkSans-Regular';}
-	.st12{font-size:20px;}
-	.st13{fill:#FF931D;}
-	.st14{fill:#071A23;}
-	.st15{opacity:0.6;fill:#E9E6DF;enable-background:new    ;}
-	.st16{fill:#FFFFFF;}
-	.st17{fill:#62B0E2;}
+	<!--LIGHT .st0{fill:#F3F2F1;} -->
+	<!--RED .st1{fill:#C83131;} -->
+	<!--LIGHT RED .st2{fill:#F23C3C;} -->
+	<!--YELLOW .st3{fill:#F4C32D;} -->
+	<!--ORANGE .st4{fill:#F16B25;} -->
+	<!--DARK YELLOW .st5{fill:#DDA814;} -->
+	<!--LIGHT ORANGE .st13{fill:#FF931D;} -->
+	<!--DARK .st14{fill:#071A23;} -->
+	<!--GLASS .st15{opacity:0.6;fill:#E9E6DF;enable-background:new    ;} -->
+	<!--WHITE .st16{fill:#FFFFFF;} -->
+	<!--CYAN .st17{fill:#62B0E2;} -->
 	.st18{fill:#75964B;}
 	.st19{fill:#353535;}
 	.st20{fill:#C0C0C0;}
@@ -30,170 +23,70 @@
 	.st24{fill:#606060;}
 </style>
 <g id="back_card">
-	<path class="st0" d="M418.5,663.6L244.6,362.3c-1.6-2.7-0.6-6.2,2.1-7.7l189.5-109.4c2.7-1.6,6.2-0.6,7.7,2.1l173.9,301.2
+	<path class="fill-light" d="M418.5,663.6L244.6,362.3c-1.6-2.7-0.6-6.2,2.1-7.7l189.5-109.4c2.7-1.6,6.2-0.6,7.7,2.1l173.9,301.2
 		c1.6,2.7,0.6,6.2-2.1,7.7L426.2,665.6C423.5,667.2,420.1,666.3,418.5,663.6z"/>
 </g>
 <g id="toolbox">
-	<polygon class="st1" points="192,777 200.9,850 1735,850 1744,779 	"/>
-	<path class="st2" d="M417.6,544.6l-53.1-442.2c-2-16.8,9.9-32,26.7-34c1.2-0.1,2.4-0.2,3.6-0.2h1140.7c16.9,0,30.6,13.6,30.6,30.5
+	<polygon class="fill-red" points="192,777 200.9,850 1735,850 1744,779 	"/>
+	<path class="fill-light-red" d="M417.6,544.6l-53.1-442.2c-2-16.8,9.9-32,26.7-34c1.2-0.1,2.4-0.2,3.6-0.2h1140.7c16.9,0,30.6,13.6,30.6,30.5
 		c0,1.1-0.1,2.2-0.2,3.3l-46.6,442.4l221.4,221.5c5.2,5.2,5.2,13.7,0,19c-2.5,2.5-5.9,3.9-9.5,3.9l-1526,0.6
 		c-7.4,0-13.4-6-13.4-13.4c0-3.6,1.4-7,3.9-9.5L417.6,544.6z"/>
-	<path class="st3" d="M230.6,759.8l208.3-208.3h1059.4L1706,759.3c2.1,2.1,2.1,5.6,0,7.8c-1,1-2.4,1.6-3.9,1.6l-1467.6,0.5
+	<path class="fill-yellow" d="M230.6,759.8l208.3-208.3h1059.4L1706,759.3c2.1,2.1,2.1,5.6,0,7.8c-1,1-2.4,1.6-3.9,1.6l-1467.6,0.5
 		c-3,0-5.5-2.5-5.5-5.5C229,762.3,229.6,760.9,230.6,759.8z"/>
-	<path class="st4" d="M439,552l79.2-56.4L482.5,87h-86.4c-6.9,0-12.5,5.6-12.5,12.5c0,0.5,0,1,0.1,1.5L439,552z"/>
-	<path class="st4" d="M1498.3,552.6l-60.3-61.4l15.6-403.5l81,0.2c8.1-0.4,15,5.9,15.3,14c0,0.8,0,1.6-0.1,2.3L1498.3,552.6z"/>
-	<path class="st5" d="M438.9,551.6l-7.8,217.7l-195.4,2c-4.2,0-7.7-3.4-7.8-7.6c0-2.1,0.8-4.1,2.3-5.5L438.9,551.6z"/>
-	<path class="st5" d="M1498.3,551.6v217.7h201.8c3.9,0,7-3.1,7-7c0-1.9-0.7-3.7-2.1-5L1498.3,551.6z"/>
-	<g id="READY_TO_GET_STARTED_">
-		<text transform="matrix(1 0 0 1 636.45 271.27)" class="st6 st7 st8">REA</text>
-		<text transform="matrix(1 0 0 1 740.65 271.27)" class="st6 st7 st8">D</text>
-		<text transform="matrix(1 0 0 1 778.55 271.27)" class="st6 st7 st8">Y </text>
-		<text transform="matrix(1 0 0 1 826.65 271.27)" class="st6 st7 st8 st9">T</text>
-		<text transform="matrix(1 0 0 1 858.75 271.27)" class="st6 st7 st8">O GET </text>
-		<text transform="matrix(1 0 0 1 1025.64 271.27)" class="st6 st7 st8">S</text>
-		<text transform="matrix(1 0 0 1 1060.4399 271.27)" class="st6 st7 st8 st10">T</text>
-		<text transform="matrix(1 0 0 1 1090.74 271.27)" class="st6 st7 st8">A</text>
-		<text transform="matrix(1 0 0 1 1125.4399 271.27)" class="st6 st7 st8">R</text>
-		<text transform="matrix(1 0 0 1 1162.54 271.27)" class="st6 st7 st8">TED?</text>
-	</g>
-	
-		<g id="Whether_you_re_looking_to_try_an_idea._Or_just_want_a_tool_to_help_you_create_some_fast_card_layouts._Damn_Good_Game_Tools_is_there_to_make_you_awesome._Let_s_get_to_work.">
-		<text transform="matrix(1 0 0 1 669.14 331.42)" class="st6 st11 st12">Wh</text>
-		<text transform="matrix(1 0 0 1 700.96 331.42)" class="st6 st11 st12">e</text>
-		<text transform="matrix(1 0 0 1 712.34 331.42)" class="st6 st11 st12">t</text>
-		<text transform="matrix(1 0 0 1 720.9 331.42)" class="st6 st11 st12">he</text>
-		<text transform="matrix(1 0 0 1 744.9 331.42)" class="st6 st11 st12">r </text>
-		<text transform="matrix(1 0 0 1 758.84 331.42)" class="st6 st11 st12">y</text>
-		<text transform="matrix(1 0 0 1 769.7 331.42)" class="st6 st11 st12">ou</text>
-		<text transform="matrix(1 0 0 1 794.2 331.42)" class="st6 st11 st12">’</text>
-		<text transform="matrix(1 0 0 1 799.38 331.42)" class="st6 st11 st12">r</text>
-		<text transform="matrix(1 0 0 1 807.4 331.42)" class="st6 st11 st12">e looking</text>
-		<text transform="matrix(1 0 0 1 896.6 331.42)" class="st6 st11 st12"> </text>
-		<text transform="matrix(1 0 0 1 902.78 331.42)" class="st6 st11 st12">to</text>
-		<text transform="matrix(1 0 0 1 923.38 331.42)" class="st6 st11 st12"> </text>
-		<text transform="matrix(1 0 0 1 929.5601 331.42)" class="st6 st11 st12">tr</text>
-		<text transform="matrix(1 0 0 1 946.32 331.42)" class="st6 st11 st12">y</text>
-		<text transform="matrix(1 0 0 1 956.76 331.42)" class="st6 st11 st12"> an ide</text>
-		<text transform="matrix(1 0 0 1 1023.22 331.42)" class="st6 st11 st12">a</text>
-		<text transform="matrix(1 0 0 1 1034.72 331.42)" class="st6 st11 st12">. </text>
-		<text transform="matrix(1 0 0 1 1046.67 331.42)" class="st6 st11 st12">O</text>
-		<text transform="matrix(1 0 0 1 1061.49 331.42)" class="st6 st11 st12">r</text>
-		<text transform="matrix(1 0 0 1 1069.35 331.42)" class="st6 st11 st12"> just</text>
-		<text transform="matrix(1 0 0 1 1112.75 331.42)" class="st6 st11 st12"> </text>
-		<text transform="matrix(1 0 0 1 1118.8101 331.42)" class="st6 st11 st12">w</text>
-		<text transform="matrix(1 0 0 1 1136.03 331.42)" class="st6 st11 st12">a</text>
-		<text transform="matrix(1 0 0 1 1147.4301 331.42)" class="st6 st11 st12">n</text>
-		<text transform="matrix(1 0 0 1 1159.6899 331.42)" class="st6 st11 st12">t </text>
-		<text transform="matrix(1 0 0 1 1174.67 331.42)" class="st6 st11 st12">a</text>
-		<text transform="matrix(1 0 0 1 1185.6899 331.42)" class="st6 st11 st12"> </text>
-		<text transform="matrix(1 0 0 1 1191.87 331.42)" class="st6 st11 st12">too</text>
-		<text transform="matrix(1 0 0 1 1224.5901 331.42)" class="st6 st11 st12">l</text>
-		<text transform="matrix(1 0 0 1 1230.25 331.42)" class="st6 st11 st12"> </text>
-		<text transform="matrix(1 0 0 1 1236.4299 331.42)" class="st6 st11 st12">to</text>
-		<text transform="matrix(1 0 0 1 675.89 361.42)" class="st6 st11 st12">help</text>
-		<text transform="matrix(1 0 0 1 718.71 361.42)" class="st6 st11 st12"> </text>
-		<text transform="matrix(1 0 0 1 724.79 361.42)" class="st6 st11 st12">y</text>
-		<text transform="matrix(1 0 0 1 735.65 361.42)" class="st6 st11 st12">ou c</text>
-		<text transform="matrix(1 0 0 1 777.97 361.42)" class="st6 st11 st12">r</text>
-		<text transform="matrix(1 0 0 1 785.99 361.42)" class="st6 st11 st12">e</text>
-		<text transform="matrix(1 0 0 1 797.61 361.42)" class="st6 st11 st12">a</text>
-		<text transform="matrix(1 0 0 1 808.61 361.42)" class="st6 st11 st12">te </text>
-		<text transform="matrix(1 0 0 1 835.21 361.42)" class="st6 st11 st12">s</text>
-		<text transform="matrix(1 0 0 1 845.77 361.42)" class="st6 st11 st12">ome</text>
-		<text transform="matrix(1 0 0 1 888.49 361.42)" class="st6 st11 st12"> </text>
-		<text transform="matrix(1 0 0 1 894.67 361.42)" class="st6 st11 st12">f</text>
-		<text transform="matrix(1 0 0 1 902.17 361.42)" class="st6 st11 st12">ast ca</text>
-		<text transform="matrix(1 0 0 1 961.85 361.42)" class="st6 st11 st12">r</text>
-		<text transform="matrix(1 0 0 1 969.87 361.42)" class="st6 st11 st12">d </text>
-		<text transform="matrix(1 0 0 1 988.95 361.42)" class="st6 st11 st12">l</text>
-		<text transform="matrix(1 0 0 1 995.21 361.42)" class="st6 st11 st12">a</text>
-		<text transform="matrix(1 0 0 1 1006.01 361.42)" class="st6 st11 st12">y</text>
-		<text transform="matrix(1 0 0 1 1016.87 361.42)" class="st6 st11 st12">outs. </text>
-		<text transform="matrix(1 0 0 1 1072.39 361.42)" class="st6 st11 st12">D</text>
-		<text transform="matrix(1 0 0 1 1086.75 361.42)" class="st6 st11 st12">amn Good Game</text>
-		<text transform="matrix(1 0 0 1 691.35 391.42)" class="st6 st11 st12 st10">T</text>
-		<text transform="matrix(1 0 0 1 701.63 391.42)" class="st6 st11 st12">ools is</text>
-		<text transform="matrix(1 0 0 1 765.25 391.42)" class="st6 st11 st12"> </text>
-		<text transform="matrix(1 0 0 1 771.43 391.42)" class="st6 st11 st12">t</text>
-		<text transform="matrix(1 0 0 1 779.99 391.42)" class="st6 st11 st12">he</text>
-		<text transform="matrix(1 0 0 1 803.99 391.42)" class="st6 st11 st12">r</text>
-		<text transform="matrix(1 0 0 1 812.01 391.42)" class="st6 st11 st12">e</text>
-		<text transform="matrix(1 0 0 1 823.63 391.42)" class="st6 st11 st12"> </text>
-		<text transform="matrix(1 0 0 1 829.81 391.42)" class="st6 st11 st12">to ma</text>
-		<text transform="matrix(1 0 0 1 887.29 391.42)" class="st6 st11 st12">k</text>
-		<text transform="matrix(1 0 0 1 898.53 391.42)" class="st6 st11 st12">e</text>
-		<text transform="matrix(1 0 0 1 910.15 391.42)" class="st6 st11 st12"> </text>
-		<text transform="matrix(1 0 0 1 916.23 391.42)" class="st6 st11 st12">y</text>
-		<text transform="matrix(1 0 0 1 927.09 391.42)" class="st6 st11 st12">ou </text>
-		<text transform="matrix(1 0 0 1 958.09 391.42)" class="st6 st11 st12">a</text>
-		<text transform="matrix(1 0 0 1 969.23 391.42)" class="st6 st11 st12">w</text>
-		<text transform="matrix(1 0 0 1 986.35 391.42)" class="st6 st11 st12">e</text>
-		<text transform="matrix(1 0 0 1 997.97 391.42)" class="st6 st11 st12">s</text>
-		<text transform="matrix(1 0 0 1 1008.53 391.42)" class="st6 st11 st12">ome. </text>
-		<text transform="matrix(1 0 0 1 1063.21 391.42)" class="st6 st11 st12">Le</text>
-		<text transform="matrix(1 0 0 1 1086.33 391.42)" class="st6 st11 st12">t</text>
-		<text transform="matrix(1 0 0 1 1094.8099 391.42)" class="st6 st11 st12">’</text>
-		<text transform="matrix(1 0 0 1 1099.25 391.42)" class="st6 st11 st12">s g</text>
-		<text transform="matrix(1 0 0 1 1127.4099 391.42)" class="st6 st11 st12">e</text>
-		<text transform="matrix(1 0 0 1 1138.79 391.42)" class="st6 st11 st12">t</text>
-		<text transform="matrix(1 0 0 1 1147.27 391.42)" class="st6 st11 st12"> </text>
-		<text transform="matrix(1 0 0 1 1153.45 391.42)" class="st6 st11 st12">to</text>
-		<text transform="matrix(1 0 0 1 1174.04 391.42)" class="st6 st11 st12"> </text>
-		<text transform="matrix(1 0 0 1 1180.11 391.42)" class="st6 st11 st12">w</text>
-		<text transform="matrix(1 0 0 1 1197.23 391.42)" class="st6 st11 st12">or</text>
-		<text transform="matrix(1 0 0 1 1217.62 391.42)" class="st6 st11 st12">k</text>
-		<text transform="matrix(1 0 0 1 1229.36 391.42)" class="st6 st11 st12">.</text>
-	</g>
-	<polygon class="st13" points="482.5,87 1453.6,87.7 1435.6,556.1 522.7,552.8 	"/>
-	<polygon class="st2" points="518.2,492.4 1438,496.7 1498.3,556.6 439,552 	"/>
+	<path class="fill-orange" d="M439,552l79.2-56.4L482.5,87h-86.4c-6.9,0-12.5,5.6-12.5,12.5c0,0.5,0,1,0.1,1.5L439,552z"/>
+	<path class="fill-orange" d="M1498.3,552.6l-60.3-61.4l15.6-403.5l81,0.2c8.1-0.4,15,5.9,15.3,14c0,0.8,0,1.6-0.1,2.3L1498.3,552.6z"/>
+	<path class="fill-dark-yellow" d="M438.9,551.6l-7.8,217.7l-195.4,2c-4.2,0-7.7-3.4-7.8-7.6c0-2.1,0.8-4.1,2.3-5.5L438.9,551.6z"/>
+	<path class="fill-dark-yellow" d="M1498.3,551.6v217.7h201.8c3.9,0,7-3.1,7-7c0-1.9-0.7-3.7-2.1-5L1498.3,551.6z"/>
+	<polygon class="fill-light-orange" points="482.5,87 1453.6,87.7 1435.6,556.1 522.7,552.8 	"/>
+	<polygon class="fill-light-red" points="518.2,492.4 1438,496.7 1498.3,556.6 439,552 	"/>
 </g>
 <g id="cat_paw">
-	<path class="st4" d="M308.8,547.7l5,28.7l-3,0.5l-5.3-30.2c-6.3-1.8-12.8-2.3-19.3-1.4l6.1,34.9l-3,0.5l-6.1-34.9
+	<path class="fill-orange" d="M308.8,547.7l5,28.7l-3,0.5l-5.3-30.2c-6.3-1.8-12.8-2.3-19.3-1.4l6.1,34.9l-3,0.5l-6.1-34.9
 		c-6.1,1.2-11.8,3.7-16.9,7.3l5.4,30.7l-3,0.5l-5.1-29.1c-12.8,10.5-19,27-16.1,43.3l13.1,74.8l59.7,1.4l-55.8,20.8l4.8,27.2
 		L329,724l-55.8,20.9l4.5,25.6l22.1,0.5h70.9l-32.9-188.4C335,566.7,324,553.4,308.8,547.7z M367.2,753l-59.7-1.4l55.9-20.9
 		L367.2,753z M358.6,703.6l-59.7-1.4l55.9-20.9L358.6,703.6z M350.2,655.7l-59.7-1.4l55.9-20.9L350.2,655.7z"/>
-	<polygon class="st14" points="292.4,580.1 286.3,545.2 286.3,545.2 283.3,545.7 283.3,545.7 289.4,580.6 	"/>
-	<polygon class="st14" points="271.8,583.7 266.4,553 265.7,548.8 262.7,549.3 263.7,555.1 268.8,584.2 	"/>
-	<polygon class="st14" points="313.8,576.3 308.8,547.7 307.7,541.4 304.8,541.9 305.6,546.6 310.9,576.8 	"/>
-	<polygon class="st13" points="277.6,770.5 277.7,771 299.8,771 277.7,770.5 	"/>
-	<polygon class="st13" points="269.3,722.6 269.3,722.6 273.2,744.9 273.2,744.9 329,724 	"/>
-	<polygon class="st13" points="260.7,673.2 260.6,673.2 264.5,695.4 264.5,695.4 320.4,674.6 	"/>
-	<polygon class="st13" points="350.2,655.7 346.3,633.5 290.5,654.3 	"/>
-	<polygon class="st13" points="358.6,703.6 354.7,681.3 298.9,702.2 	"/>
-	<polygon class="st13" points="367.2,753 363.3,730.8 307.5,751.7 	"/>
+	<polygon class="fill-dark" points="292.4,580.1 286.3,545.2 286.3,545.2 283.3,545.7 283.3,545.7 289.4,580.6 	"/>
+	<polygon class="fill-dark" points="271.8,583.7 266.4,553 265.7,548.8 262.7,549.3 263.7,555.1 268.8,584.2 	"/>
+	<polygon class="fill-dark" points="313.8,576.3 308.8,547.7 307.7,541.4 304.8,541.9 305.6,546.6 310.9,576.8 	"/>
+	<polygon class="fill-light-orange" points="277.6,770.5 277.7,771 299.8,771 277.7,770.5 	"/>
+	<polygon class="fill-light-orange" points="269.3,722.6 269.3,722.6 273.2,744.9 273.2,744.9 329,724 	"/>
+	<polygon class="fill-light-orange" points="260.7,673.2 260.6,673.2 264.5,695.4 264.5,695.4 320.4,674.6 	"/>
+	<polygon class="fill-light-orange" points="350.2,655.7 346.3,633.5 290.5,654.3 	"/>
+	<polygon class="fill-light-orange" points="358.6,703.6 354.7,681.3 298.9,702.2 	"/>
+	<polygon class="fill-light-orange" points="367.2,753 363.3,730.8 307.5,751.7 	"/>
 </g>
 <g id="timer">
-	<path class="st15" d="M543.2,471.3l16.5,115.5l-1,0.1c-24,27.8-20.8,69.9,7,93.8c2.3,2,4.7,3.8,7.2,5.4l0.9-0.1l12,84.2h9.5
+	<path class="fill-glass" d="M543.2,471.3l16.5,115.5l-1,0.1c-24,27.8-20.8,69.9,7,93.8c2.3,2,4.7,3.8,7.2,5.4l0.9-0.1l12,84.2h9.5
 		L552.5,470L543.2,471.3z"/>
-	<path class="st15" d="M506.5,695.7c23.5-28.2,19.7-70.2-8.5-93.7c-2.3-1.9-4.8-3.7-7.4-5.3l0,0l-16.5-115.5l-9.3,1.3l41,287.9h9.5
+	<path class="fill-glass" d="M506.5,695.7c23.5-28.2,19.7-70.2-8.5-93.7c-2.3-1.9-4.8-3.7-7.4-5.3l0,0l-16.5-115.5l-9.3,1.3l41,287.9h9.5
 		l-10.6-74.4L506.5,695.7z"/>
-	<path class="st16" d="M572.9,686.2c-30.8-20-39.6-61.2-19.6-92c1.6-2.5,3.4-4.9,5.4-7.2l1-0.1l-16.5-115.5l-69,9.8l16.4,115.6l0,0
+	<path class="fill-white" d="M572.9,686.2c-30.8-20-39.6-61.2-19.6-92c1.6-2.5,3.4-4.9,5.4-7.2l1-0.1l-16.5-115.5l-69,9.8l16.4,115.6l0,0
 		c31.2,19.5,40.6,60.5,21.2,91.6c-1.6,2.6-3.4,5-5.3,7.4l-1.7,0.2l10.6,74.4h5.1l-8.2-57.3l61,6l7.3,51.2h5.1l-12-84.2L572.9,686.2z
 		"/>
-	<polygon class="st2" points="543.2,471.3 552.5,470 553.5,469.8 546.8,422.5 501.9,428.9 456.9,435.3 463.6,482.6 464.8,482.5 
+	<polygon class="fill-light-red" points="543.2,471.3 552.5,470 553.5,469.8 546.8,422.5 501.9,428.9 456.9,435.3 463.6,482.6 464.8,482.5
 		474.1,481.1 	"/>
-	<polygon class="st2" points="554.2,421.5 553.2,414.5 448.5,429.4 449.5,436.4 456.9,435.3 501.9,428.9 	"/>
-	<polygon class="st17" points="512.3,713.1 520.5,770.3 580.6,770.3 573.4,719.1 	"/>
+	<polygon class="fill-light-red" points="554.2,421.5 553.2,414.5 448.5,429.4 449.5,436.4 456.9,435.3 501.9,428.9 	"/>
+	<polygon class="fill-cyan" points="512.3,713.1 520.5,770.3 580.6,770.3 573.4,719.1 	"/>
 </g>
 <g id="front_card">
-	
-		<rect x="1311.9" y="493" transform="matrix(0.441 -0.8975 0.8975 0.441 288.7117 1615.8053)" class="st0" width="259.3" height="166.2"/>
+
+		<rect x="1311.9" y="493" transform="matrix(0.441 -0.8975 0.8975 0.441 288.7117 1615.8053)" class="fill-light" width="259.3" height="166.2"/>
 </g>
 <g id="paintbrush">
-	<polygon class="st2" points="1420.5,651.4 1394.4,770.3 1420.5,770.3 1447.2,655.7 	"/>
-	<path class="st3" d="M1463.5,560.5c-1.3,0.7-2.6,1.2-4,1.4C1460.9,561.6,1462.3,561.2,1463.5,560.5z"/>
-	<path class="st3" d="M1463.5,560.5c3.6-1.9,6.2-5.2,7.1-9.2l4.5-88.4l0,0l-2.4,48.4c-4.5,1.4-8.7,3.7-12.2,6.7
+	<polygon class="fill-light-red" points="1420.5,651.4 1394.4,770.3 1420.5,770.3 1447.2,655.7 	"/>
+	<path class="fill-yellow" d="M1463.5,560.5c-1.3,0.7-2.6,1.2-4,1.4C1460.9,561.6,1462.3,561.2,1463.5,560.5z"/>
+	<path class="fill-yellow" d="M1463.5,560.5c3.6-1.9,6.2-5.2,7.1-9.2l4.5-88.4l0,0l-2.4,48.4c-4.5,1.4-8.7,3.7-12.2,6.7
 		c-1.9,1.6-3.8,3.4-5.6,5.1l-1.9,1.9l-0.4,0.3c-0.1-0.1-0.3-0.1-0.4-0.1c-0.3-0.2-0.5-0.4-0.8-0.7v-0.1c-0.2-0.3-0.4-0.5-0.6-0.8
 		l-8.4,21c-1.4,5.9,1.2,12,6.3,15.3l9.6,1.9C1460,561.5,1461.8,561.1,1463.5,560.5z"/>
-	<path class="st3" d="M1459.3,562h0.2H1459.3L1459.3,562z"/>
+	<path class="fill-yellow" d="M1459.3,562h0.2H1459.3L1459.3,562z"/>
 	<path class="st18" d="M1451.3,524.5c0.2,0.2,0.5,0.5,0.8,0.7c0.1,0,0.3,0.1,0.4,0.1l0.4-0.3l1.9-1.9c1.8-1.7,3.7-3.5,5.6-5.1
 		c3.6-3,7.7-5.3,12.2-6.7l2.4-48.4l0,0l-24.4,60.7l0,0C1451,523.8,1451.1,524.1,1451.3,524.5L1451.3,524.5z"/>
 	<path class="st18" d="M1459.3,562h0.2l0,0c1.4-0.3,2.7-0.8,4-1.4l0,0c-1.7,0.6-3.5,1-5.3,1.3L1459.3,562z"/>
-	<polygon class="st19" points="1461.2,562.3 1459.3,562 1459.3,562 1458.2,561.8 1448.6,559.8 1445.9,559.3 1420.5,651.4 
+	<polygon class="st19" points="1461.2,562.3 1459.3,562 1459.3,562 1458.2,561.8 1448.6,559.8 1445.9,559.3 1420.5,651.4
 		1447.2,655.7 	"/>
 </g>
 <g id="dojo_meeple">
-	<path id="Path_352" class="st13" d="M1795.9,639.9l-60.6-15.1c-2.6-3.8-5-7.8-7-12c-3.8-9.4-6.8-19.1-10.7-28.5
+	<path id="Path_352" class="fill-light-orange" d="M1795.9,639.9l-60.6-15.1c-2.6-3.8-5-7.8-7-12c-3.8-9.4-6.8-19.1-10.7-28.5
 		c-2.9-7-5.7-7.7-11.6-2.9c-7.7,6.4-14.7,13.5-22.4,19.9c-3.9,2.8-7.9,5.4-12.2,7.6l-60.6-15.1c-3.3-2.5-4.2-7-2.2-10.6
 		c0.8-1.8,1.6-3.8,2.5-5.5c7.6-13.9,19.2-24.8,30.2-36.1c7.3-7.5,14.8-14.9,21.6-22.8c5.5-6.4,3.9-9.8-4.6-12.7
 		c-7.4-2-14.6-4.4-21.8-7.2c-14.3-6.3-16.9-22.3-4.6-31c6.6-4.7,14.2-7.9,22.2-9.4c15.7-2.7,31.8-3.8,47.8-5.2
@@ -201,14 +94,14 @@
 		c-0.9,4.3,0.6,6.3,4.3,8.7c12.8,8.1,25.6,16.3,37.8,25.1c9.7,7.1,17.3,16,19.7,27.7l-2.2,8.9c-6.1,9.5-15.5,10.7-26.3,8.2
 		c-5.3-1.2-10.7-2.3-16.1-3.2c-8.2-1.3-10.8,0.9-9.5,8.7c0.8,4.4,1.8,8.7,3.1,13c3.9,13.7,8.7,27.2,11.8,41.1
 		c1.7,9.3,2.7,18.8,3,28.2C1803.2,635.4,1800.2,639.3,1795.9,639.9"/>
-	
-		<rect x="1743.7" y="400" transform="matrix(0.2438 -0.9698 0.9698 0.2438 901.6067 2025.4387)" class="st2" width="11.7" height="69.1"/>
-	<path class="st2" d="M1779.1,443.8c0,0-5.7,18.8,12,27.1C1791.1,470.9,1801.3,455.7,1779.1,443.8z"/>
-	<path class="st2" d="M1778.4,446.6c0,0,18.3,10.5,30.7-3.3C1809,443.3,1795.4,429.8,1778.4,446.6z"/>
+
+		<rect x="1743.7" y="400" transform="matrix(0.2438 -0.9698 0.9698 0.2438 901.6067 2025.4387)" class="fill-light-red" width="11.7" height="69.1"/>
+	<path class="fill-light-red" d="M1779.1,443.8c0,0-5.7,18.8,12,27.1C1791.1,470.9,1801.3,455.7,1779.1,443.8z"/>
+	<path class="fill-light-red" d="M1778.4,446.6c0,0,18.3,10.5,30.7-3.3C1809,443.3,1795.4,429.8,1778.4,446.6z"/>
 </g>
 <g id="dice">
 	<path id="Path_348" class="st20" d="M1526.4,138.1l84.2,93.2l132.2,3.7l-81-85.1L1526.4,138.1z"/>
-	<path id="Path_353" class="st16" d="M1611,231.7l-62.7,121.9l-82.5-92.2l60.5-123.3L1611,231.7z"/>
+	<path id="Path_353" class="fill-white" d="M1611,231.7l-62.7,121.9l-82.5-92.2l60.5-123.3L1611,231.7z"/>
 	<path id="Path_354" class="st21" d="M1611,230.9l-62.4,122.6l131.3,4.2l63-122.7L1611,230.9z"/>
 	<path id="Path_355" class="st22" d="M1589.6,166.5c-1.6,3.9-8.8,4.8-16.2,1.8s-12-8.6-10.4-12.5s8.8-4.8,16.2-1.8
 		S1591.2,162.6,1589.6,166.5"/>
@@ -218,17 +111,17 @@
 		S1704,213.6,1702.4,217.6"/>
 	<path id="Path_358" class="st22" d="M1657.6,306.8c-5.6,5.2-14.5,4.9-19.7-0.7c-5.2-5.6-4.9-14.5,0.7-19.7c5.3-4.9,13.5-5,18.8-0.1
 		C1663.2,291.9,1663.2,301.1,1657.6,306.8"/>
-	<path id="Path_359" class="st14" d="M1538.3,193.7c-2.7,6.4-9.1,9.8-14.3,7.6s-7.3-9.1-4.7-15.5s9.1-9.8,14.3-7.6
+	<path id="Path_359" class="fill-dark" d="M1538.3,193.7c-2.7,6.4-9.1,9.8-14.3,7.6s-7.3-9.1-4.7-15.5s9.1-9.8,14.3-7.6
 		S1541,187.3,1538.3,193.7"/>
-	<path id="Path_361" class="st14" d="M1509.6,255.4c-2.7,6.4-9.1,9.8-14.3,7.6s-7.3-9.1-4.7-15.5s9.1-9.8,14.3-7.6
+	<path id="Path_361" class="fill-dark" d="M1509.6,255.4c-2.7,6.4-9.1,9.8-14.3,7.6s-7.3-9.1-4.7-15.5s9.1-9.8,14.3-7.6
 		S1512.2,249,1509.6,255.4"/>
-	<path id="Path_361-2" class="st14" d="M1577.8,243.5c-2.7,6.4-9.1,9.8-14.3,7.6s-7.3-9.1-4.7-15.5s9.1-9.8,14.3-7.6
+	<path id="Path_361-2" class="fill-dark" d="M1577.8,243.5c-2.7,6.4-9.1,9.8-14.3,7.6s-7.3-9.1-4.7-15.5s9.1-9.8,14.3-7.6
 		S1580.4,237.1,1577.8,243.5"/>
-	<path id="Path_362" class="st14" d="M1549,298.2c-2.7,6.4-9.1,9.8-14.3,7.6s-7.3-9.1-4.7-15.5s9.1-9.8,14.3-7.6
+	<path id="Path_362" class="fill-dark" d="M1549,298.2c-2.7,6.4-9.1,9.8-14.3,7.6s-7.3-9.1-4.7-15.5s9.1-9.8,14.3-7.6
 		S1551.7,291.8,1549,298.2"/>
 </g>
 <g id="blue_pawn">
-	<path id="Path_389" class="st17" d="M285.1,146.7c8.2-13.4,3.1-30.1-11.4-37.3s-33-2.1-41.3,11.3s-3.1,30.1,11.4,37.3
+	<path id="Path_389" class="fill-cyan" d="M285.1,146.7c8.2-13.4,3.1-30.1-11.4-37.3s-33-2.1-41.3,11.3s-3.1,30.1,11.4,37.3
 		c6.7,3.2,14.3,4.1,21.6,2.4c43.7,62.9-5.5,116.6,22.5,150.1l74.2-51.8l0.9-0.6l74.2-51.8C409.3,172.8,339.8,202,285.1,146.7"/>
 	<path id="Path_390" class="st23" d="M438.8,208.1c17.8,21.4-1.4,62.3-43,91.3s-89.7,35.2-107.5,13.8s1.4-62.3,43-91.3
 		S421,186.8,438.8,208.1"/>

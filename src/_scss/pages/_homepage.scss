@@ -3,6 +3,14 @@
 }
 #better-and-faster {
   background-size: 135%;
+  svg {
+    // Hide group node on smaller screen sizes. ** Using media query mixin.
+    #top_yellow_ribbon {
+      @include media-breakpoint-down(lg) {
+        display: none;
+      }
+    }
+  }
 }
 
 #damn-good {
@@ -33,6 +41,23 @@
 }
 
 #toolbox {
+  // Reference: Example of text replacement technique for swapping out custom font as svg.
+  h2 {
+    font-size: 6rem;
+    span {
+      display: block;
+      max-width: 200px;
+      margin: auto;
+      text-indent: -999rem;
+      font-size: 1rem;
+      margin: auto;
+      text-align: center;
+      background-image: url("/img/damn-good.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
   .card {
     padding: 0 1rem;
     text-align: center;

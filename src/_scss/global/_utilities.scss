@@ -1,106 +1,4 @@
-// Background utlities
-.bg-image,
-.bg-video,
-.bg-iframe,
-.bg-hero,
-.responsive-iframe {
-  position: relative;
-  display: block;
-  height: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-color: $black;
-  // background-image: url(https://via.placeholder.com/700x500/f2783c/f2783c?text=placeholder);
-  overflow: hidden;
-  &.aspect-1x1 {
-    padding-top: 100%;
-    video {
-      left: -25%;
-      height: 100%;
-      max-width: none;
-      width: auto;
-      object-fit: cover;
-    }
-    video[poster] {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-    }
-  }
-
-  &.aspect-2x1 {
-    padding-top: 50%;
-  }
-  &.aspect-3x1 {
-    padding-top: 33%;
-  }
-  &.aspect-4x3 {
-    padding-top: 75%;
-  }
-  &.aspect-5x7 {
-    padding-top: 120%;
-  }
-  &.aspect-16x9 {
-    padding-top: 56.25%;
-  }
-
-  // TODO: Confirm or refactor these modifier classes
-  &.aspect-multilayer,
-  &.aspect-hero {
-    padding-top: 43%;
-  }
-  &.aspect-auto {
-    height: auto;
-    padding-top: 28vw;
-    padding-bottom: 28vw;
-  }
-
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-  }
-
-  video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
-    z-index: 0;
-    object-fit: cover;
-  }
-
-  .video-poster {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-  }
-
-  .layer {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-}
-
-// Background Utilities
+// Reference: Adding sunburst and grid elements via CSS
 .bg-sunburst {
   background-image: repeating-conic-gradient(hsla(0, 0%, 100%, 0.05) 0 18deg, hsla(0, 0%, 100%, 0) 0 40deg);
   background-size: 100%;
@@ -119,75 +17,37 @@
     background-image: radial-gradient(circle, rgba($light, 0.7) 1px, rgba($light, 0) 1px);
   }
 }
-
-.bg-fill {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.bg-full {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.bg-half {
-  min-height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.bg-third {
-  min-height: 33vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-//can use a utitlity like this to animate when lazyloading
-[data-lazy-type] {
-  opacity: 0.1;
-  &.active {
-    @include animation(fadeIn, 1.3s);
-  }
-}
-
-// Typeography Utilities
-// Text utilities
-.text-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 500;
-  &.overlay-bottom {
-    top: auto;
-    bottom: 80px;
-    height: auto;
-    display: block;
-  }
-}
-
-.text-underline {
-  text-transform: underline !important;
-}
-
 .text-mega {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: 400;
   line-height: 1.3;
-  @include media-breakpoint-down(md) {
-    font-size: 1.75rem;
+  @include media-breakpoint-up(lg) {
+    font-size: 2.5rem;
   }
 }
-.text-chunk {
-  // TODO: Add text replacement utility
+
+// Reference: Theme colors are set in _settings.scss
+@each $color, $value in $theme-colors {
+  .fill-#{$color} {
+    fill: $value;
+  }
 }
-// Color Palette Utilities
-.bg-dark {
-  color: $light;
+@each $color, $value in $colors {
+  .fill-#{$color} {
+    fill: $value;
+  }
+}
+
+// Special fill cases
+.fill-glass {
+  opacity: 0.6;
+  fill: $light;
+  enable-background: new;
+}
+
+.stroke-dark {
+  fill: none;
+  stroke: $dark;
+  stroke-width: 0.61;
+  stroke-miterlimit: 10;
 }
